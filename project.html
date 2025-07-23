@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastro com CEP</title>
+  <link rel="stylesheet" href="project.css" />
+</head>
+<body>
+  <form id="cadastroForm">
+    <h1>Formulário de Cadastro</h1>
+    <label>Nome: <input type="text" id="nome" required /></label><br />
+    <label>Email: <input type="email" id="email" required /></label><br />
+    <label>CEP: <input type="text" id="cep" required maxlength="8" /></label><br />
+    <label>Rua: <input type="text" id="rua" /></label><br />
+    <label>Bairro: <input type="text" id="bairro" /></label><br />
+    <label>Cidade: <input type="text" id="cidade" /></label><br />
+    <label>Estado: <input type="text" id="estado" /></label><br />
+    <button type="submit">Salvar</button>
+  </form>
+
+  <script type="module" src="./project.js"></script>
+</body>
+</html>
+
